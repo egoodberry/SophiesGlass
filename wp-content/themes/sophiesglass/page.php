@@ -3,7 +3,7 @@
   <div class="container clearfix">
     <h1>
       <a href="/">
-        <img src="<?php bloginfo('template_directory'); ?>/images/title.png" alt="Sophie's Glass" />
+        <img src="<?php bloginfo('template_directory'); ?>/images/title.png" alt="Sophie's Glass" height="108" width="599" />
       </a>
     </h1>
 

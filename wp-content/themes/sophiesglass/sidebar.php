@@ -1,13 +1,5 @@
 <div class="sidebar grid_3">
   <section>
-    <h3>About Sophie's Glass</h3>
-    <p>
-      Sophie's Glass is the blog of oenophile Sophie Barrett.
-      <a href="/about">Read more about it.</a>
-    </p>
-  </section>
-
-  <section>
     <h3>Search</h3>
     <form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
       <input type="text" value="" name="s" id="s" />
