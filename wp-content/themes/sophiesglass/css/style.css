@@ -1,0 +1,137 @@
+body {
+  font-family: "ff-tisa-web-pro";
+  font-size: 15px;
+}
+
+/* Typography */
+a {
+  text-decoration: none;
+  color: #A31E1E;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+b, strong {
+  font-weight: 600;
+}
+i, em {
+  font-style: italic;
+  font-weight: 100;
+}
+small {
+  font-size: .7em;
+}
+
+/* site title */
+h1 {
+  text-align: center;
+}
+h1 a {
+  display: inline-block;
+}
+
+.post {
+  margin-bottom: 50px;
+}
+
+.post .date {
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin-right: 15px;
+  font-size: .65em;
+  font-family: "garamond-premier-pro-subhead", Georgia;
+}
+.post .date .month {
+  margin-top: 4px;
+}
+.post .date .day {
+  font-size: 2em;
+}
+
+.post h3,
+.page h2 {
+  font-family: "garamond-premier-pro-subhead", Georgia;
+  font-size: 2.6em;
+  margin-bottom: 0.5em;
+  display: inline-block;
+  width: 94%;
+}
+
+.post .body,
+.page .body {
+  line-height: 1.7em;
+  letter-spacing: 0.3px;
+}
+
+.post img {
+  margin: 10px 25px;
+  float: right; /* default */
+  padding: 1px;
+  border: solid 1px #6D8376;
+}
+
+/* drop caps */
+.post .body p:first-of-type:first-letter {
+  float: left;
+  font-size: 2.6em;
+  line-height: 1em;
+  padding: 6px 8px 0 4px;
+  font-family: "garamond-premier-pro-subhead";
+}
+.post p {
+  margin-bottom: 1em;
+}
+
+.post .more-link {
+  display: block;
+  text-align: right;
+  font-style: italic;
+  clear: both;
+}
+
+.sidebar {
+  line-height: 1.7em;
+  letter-spacing: 0.3px;
+}
+
+.sidebar section {
+  margin-bottom: 2em;
+}
+
+.sidebar h3 {
+  font-family: "garamond-premier-pro-subhead";
+  font-size: 1.4em;
+  margin-bottom: .2em;
+}
+
+.sidebar section > *:last-child {
+  margin-left: 10px;
+}
+
+.sidebar input[type=text] {
+  height: 30px;
+  width: 100%;
+  border-radius: 3px;
+  border: solid 1px #ddd;
+  padding: 3px 5px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.nav-previous {
+  float: left;
+}
+.nav-next {
+  float: right;
+}
