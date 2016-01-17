@@ -96,21 +96,44 @@ h1 img {
 
 .post img {
   margin: 10px 25px;
-  float: right; /* default */
   padding: 1px;
   border: solid 1px #6D8376;
 }
 
 /* drop caps */
-.post .body p:first-of-type:first-letter {
+.post .body p.first-child {
+  margin-bottom: 1.5em;
+}
+.post .body p.first-child .cap {
   float: left;
   font-size: 2.6em;
   line-height: 1em;
   padding: 6px 8px 0 4px;
   font-family: "garamond-premier-pro-subhead";
 }
+.post p.first-child+p {
+  clear: both;
+}
 .post p {
   margin-bottom: 1em;
+}
+.post p.wp-caption-text {
+  font-style: italic;
+  font-size: 12px;
+  margin-top: -15px;
+}
+
+.post .alignnone {
+  width: auto !important;
+  margin: 20px auto;
+  text-align: center;
+  display: block;
+}
+.post .alignright {
+  float: right;
+}
+.post .alignleft {
+  float: left;
 }
 
 .post .more-link {
