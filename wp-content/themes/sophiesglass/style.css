@@ -229,14 +229,15 @@ h3#comments,
   font-size: .85em;
   font-style: italic;
 }
-.comment-meta + p {
+.comment-body > p {
   clear: both;
-  padding: 1em 0 0 1.2em;
+  padding-top: .3em;
+  line-height: 1.7em;
 }
 .comment .reply {
   font-style: italic;
   font-size: .9em;
-  margin-top: 1.5em;
+  margin-top: .8em;
 }
 .comment ul.children {
   margin-left: 3em;
@@ -265,6 +266,9 @@ h3#comments,
 #commentform input[type=submit]:hover,
 #commentform input[type=submit]:active {
   background-color: #E07E7E;
+}
+#commentform .comment-form-comment label {
+  display: none;
 }
 
 /*
