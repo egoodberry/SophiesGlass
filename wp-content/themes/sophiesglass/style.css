@@ -187,6 +187,86 @@ h1 img {
   float: right;
 }
 
+h3#comments,
+#respond h3 {
+  font-style: italic;
+  margin-bottom: 1em;
+}
+.comment {
+  margin-top: 2em;
+}
+.comment-author:after,
+.comment-body:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.comment-author {
+  float: left;
+  font-size: .9em;
+}
+.comment-author > * {
+  float: left;
+}
+.comment .avatar {
+  border-radius: 50%;
+  margin-right: 9px;
+}
+.comment-author .fn,
+.comment-author .says {
+  margin-top: 7px;
+}
+.comment-author .says {
+  margin-left: 3px;
+}
+.comment-meta {
+  float: right;
+}
+.comment-meta a {
+  font-size: .85em;
+  font-style: italic;
+}
+.comment-meta + p {
+  clear: both;
+  padding: 1em 0 0 1.2em;
+}
+.comment .reply {
+  font-style: italic;
+  font-size: .9em;
+  margin-top: 1.5em;
+}
+.comment ul.children {
+  margin-left: 3em;
+}
+
+#respond {
+  margin-top: 3em;
+}
+#commentform p:first-child {
+  font-size: .8em;
+}
+#commentform textarea {
+  width: 100%;
+  margin-top: .5em;
+}
+#commentform input[type=submit] {
+  margin-top: .5em;
+  background-color: #A31E1E;
+  border: none;
+  color: #fff;
+  padding: 12px 25px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+#commentform input[type=submit]:hover,
+#commentform input[type=submit]:active {
+  background-color: #E07E7E;
+}
+
 /*
 Responsive 996px grid system ~ Grid CSS.
 Copyright 2013, Josh Cope
